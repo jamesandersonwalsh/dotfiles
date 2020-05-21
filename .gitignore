@@ -1,1 +1,38 @@
 Brewfile.lock.json
+
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "github/gh"
+tap "heroku/brew"
+
+# Brew CLI apps
+# 'brew zsh' still requires you to follow oh-my-zsh installation through sh or wget.
+brew "zsh"
+brew "diff-so-fancy"
+brew "git-extras"
+brew "netlify-cli", link: false
+brew "vim"
+brew "wget"
+brew "yarn"
+
+# App casks
+cask "1password"
+cask "discord"
+cask "docker"
+cask "fantastical"
+cask "google-chrome"
+cask "iterm2"
+cask "krisp"
+brew "mas"
+cask "macdown"
+cask "postman"
+cask "slack"
+cask "steam"
+cask "spotify"
+cask "visual-studio-code"
+
+# Mac App Store apps
+mas "Bear", id: 1091189122
+mas "Kindle", id: 405399194
+mas "Xcode", id: 497799835
