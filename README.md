@@ -1,4 +1,10 @@
 # system-brew
-Homebrew file for initializing a new MacOS system with my needed apps &amp; tooling
+Homebrew file for initializing a fresh MacOS system with my needed apps & tooling
 
-Shamelessly stolen from https://dev.to/mattstratton/my-brewfile-1pob
+Shamelessly cloned and diverged the ideas of [mattstratton/my-brewfile-1pob](https://dev.to/mattstratton/my-brewfile-1pob)
+
+## Usage
+1. [Install homebrew](https://docs.brew.sh/Installation)
+1. Clone and CD into the repository.
+1. Run `brew bundle` which should install all the dependencies speficied in the `Brewfile`.
+1. Profit 🙌
