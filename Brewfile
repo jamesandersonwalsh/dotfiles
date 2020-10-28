@@ -21,7 +21,6 @@ brew "zsh"
 # App casks
 cask "1password"
 cask "alfred"
-cask "brave-browser"
 cask "discord"
 cask "docker"
 cask "firefox"
