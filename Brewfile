@@ -36,7 +36,6 @@ cask "rectangle"
 cask "slack"
 cask "spotify"
 cask "spotify-notifications"
-cask "visual-studio-code"
 
 # Mac App Store apps
 mas "Xcode", id: 497799835
