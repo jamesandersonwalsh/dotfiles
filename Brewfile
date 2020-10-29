@@ -21,7 +21,7 @@ brew "zsh"
 
 # App casks
 cask "1password"
-cask "alfred"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
 cask "discord"
 cask "docker"
 cask "firefox"
