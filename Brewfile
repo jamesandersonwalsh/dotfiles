@@ -4,7 +4,6 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-drivers"
 tap "homebrew/services"
-tap "heroku/brew"
 
 # Brew CLI apps
 brew "diff-so-fancy"
