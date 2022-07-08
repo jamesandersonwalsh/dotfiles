@@ -21,16 +21,8 @@ brew "zoom"
 
 # App casks
 cask "discord"
-cask "firefox"
-cask "alfred"
-cask "google-chrome"
-cask "krisp"
 cask "notion"
 cask "postico"
 cask "postman"
 cask "private-internet-access"
 cask "rectangle"
-
-# Mac app store
-mas "Amphetamine", id: 937984704
-mas "Xcode", id: 497799835
