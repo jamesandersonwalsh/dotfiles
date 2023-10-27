@@ -8,10 +8,15 @@ tap "homebrew/services"
 # DevTools
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
+
+brew "gh"
+
 brew "diff-so-fancy"
 brew "git-extras"
+
 brew "vim"
 brew "wget"
+
 cask "rectangle"
 cask "visual-studio-code"
 
