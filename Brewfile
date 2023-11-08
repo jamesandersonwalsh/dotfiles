@@ -16,8 +16,8 @@ brew "git-extras"
 
 brew "vim"
 brew "wget"
-brew "raycast"
 
+cask "raycast"
 cask "rectangle"
 cask "visual-studio-code"
 
