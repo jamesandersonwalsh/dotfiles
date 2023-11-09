@@ -12,11 +12,11 @@ tap 'oven-sh/bun'
 #-----------------------------------------
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
-brew 'gh'
 brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'vim'
 brew 'wget'
+brew 'yadm'
 
 #-----------------------------------------
 # App Casks

@@ -1,0 +1,21 @@
+[user]
+# Please adapt the following lines for corporate use:
+  name = James Walsh
+  email = jamesandersonwalsh@gmail.com
+[alias]
+	lg = log --pretty=format:'%C(yellow)%h %<(24)%C(red)%ad %<(18)%C(green)%an %C(reset)%s' --date=local
+	yolo = commit --no-verify
+	wip = commit -am "WIP"
+	st = status
+	s = switch
+	sc = switch -c
+[core]
+	editor = code --wait
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[push]
+	autoSetupRemote = true
+[pager]
+	branch = false
