@@ -1,14 +1,36 @@
-# system-brew
+# Potion Master
 
-Homebrew file for initializing a fresh MacOS system with my needed apps & tooling
+For synchronizing & initializing a fresh MacOS development environment.
 
-## Usage
+<hr />
 
-1. [Install homebrew](https://docs.brew.sh/Installation)
-1. Clone and CD into the repository.
-1. Run `brew bundle` which should install all the dependencies speficied in the `Brewfile`.
-1. New Machine is G2G! _(Step 4 - Profit)_ 🙌
+## Device Setup
 
-## Resources
+[Install HomeBrew](https://docs.brew.sh/Installation) then run the following:
 
-Shamelessly cloned and diverged the ideas of [mattstratton/my-brewfile-1pob](https://dev.to/mattstratton/my-brewfile-1pob)
+```sh
+brew install gh && gh auth login
+```
+
+```sh
+gh repo clone jamesandersonwalsh/system-brew
+```
+
+## Installation
+
+### HomeBrew
+
+The following should install all known casks, apps from the `Brewfile`:
+
+```sh
+brew bundle
+```
+
+### YADM
+
+- TODO
+
+## Inspired By
+
+- [mattstratton/my-brewfile-1pob](https://dev.to/mattstratton/my-brewfile-1pob)
+- [BenGu3/dotfiles](https://github.com/BenGu3/dotfiles/blob/main/README.md)
