@@ -4,12 +4,11 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/cask-drivers"
 tap "homebrew/services"
 tap "oven-sh/bun"
 
 #-----------------------------------------
-# Brews for Dev Tools
+# Dev Tools
 #-----------------------------------------
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
