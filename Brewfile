@@ -20,6 +20,7 @@ brew "wget"
 cask "raycast"
 cask "rectangle"
 cask "visual-studio-code"
+cask "cron"
 
 # NodeJS Ecosystem Tools
 brew "nvm"
