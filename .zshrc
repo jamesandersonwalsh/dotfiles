@@ -59,11 +59,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #-----------------------------------------
-# Vasion specific
-#-----------------------------------------
-export GITHUB_TOKEN=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
-
-#-----------------------------------------
 # ZSH Plugins
 #-----------------------------------------
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
