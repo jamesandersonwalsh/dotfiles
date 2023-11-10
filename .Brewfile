@@ -30,6 +30,7 @@ cask 'iterm2'
 cask 'cron'
 cask 'notion'
 cask 'zoom'
+cask 'arc'
 
 #-----------------------------------------
 # Docker
