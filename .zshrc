@@ -50,6 +50,8 @@ alias dcps="dmenv && docker-compose ps"
 alias src=". ~/.zshrc"
 alias ll="ls -lah"
 alias dev="cd ~/dev"
+alias work="cd ~/dev/work"
+alias indie="cd ~/dev/personal"
 
 #-----------------------------------------
 # NVM
