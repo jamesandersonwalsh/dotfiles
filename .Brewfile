@@ -17,6 +17,7 @@ brew 'git-extras'
 brew 'vim'
 brew 'wget'
 brew 'yadm'
+brew '1password-cli'
 
 #-----------------------------------------
 # App Casks
