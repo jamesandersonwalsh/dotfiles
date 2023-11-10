@@ -7,8 +7,6 @@ For synchronizing development environments through Homebrew & YADM.
 ## Pre-requisites
 
 - [Install HomeBrew](https://docs.brew.sh/Installation) then run the following:
-- `yadm`
-
 ```bash
 brew install yadm
 ```
