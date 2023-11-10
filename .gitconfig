@@ -1,16 +1,8 @@
 [user]
-# Please adapt the following lines for corporate use:
-  name = James Walsh
-  email = jamesandersonwalsh@gmail.com
-[alias]
-	lg = log --pretty=format:'%C(yellow)%h %<(24)%C(red)%ad %<(18)%C(green)%an %C(reset)%s' --date=local
-	yolo = commit --no-verify
-	wip = commit -am "WIP"
-	st = status
-	s = switch
-	sc = switch -c
-[core]
-	editor = code --wait
+	name = James Walsh
+	email = jamesandersonwalsh@gmail.com
+[init]
+	defaultBranch = main
 [pull]
 	rebase = true
 [rebase]
@@ -19,3 +11,16 @@
 	autoSetupRemote = true
 [pager]
 	branch = false
+[alias]
+	lg = log --pretty=format:'%C(yellow)%h %<(24)%C(red)%ad %<(18)%C(green)%an %C(reset)%s' --date=local
+	yolo = commit --no-verify
+	wip = commit -am "WIP"
+	st = status
+	s = switch
+	sc = switch -c
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[includeIf "gitdir:~/dev/work/"]
+	path = ~/.config/git/work
+[includeIf "gitdir:~/dev/personal/"]
+	path = ~/.config/git/personal

@@ -1,34 +1,23 @@
-# Potion Master
+# Dotfiles
 
-For synchronizing & initializing a fresh MacOS development environment.
+For synchronizing development environments through Homebrew & YADM.
 
 <hr />
 
-## Device Setup
+## Pre-requisites
 
-[Install HomeBrew](https://docs.brew.sh/Installation) then run the following:
+- [Install HomeBrew](https://docs.brew.sh/Installation) then run the following:
+- `yadm`
 
-```sh
-brew install gh && gh auth login
+```bash
+brew install yadm
 ```
 
-```sh
-gh repo clone jamesandersonwalsh/system-brew
+## Bootstrap Device
+
+```bash
+yadm clone https://github.com/jamesandersonwalsh/dotfiles.git --bootstrap
 ```
-
-## Installation
-
-### HomeBrew
-
-The following should install all known casks, apps from the `Brewfile`:
-
-```sh
-brew bundle
-```
-
-### YADM
-
-- TODO
 
 ## Inspired By
 

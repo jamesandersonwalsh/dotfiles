@@ -1,0 +1,63 @@
+#!/usr/bin/env zsh
+
+SSH_REPO_URL="git@github.com:jamesandersonwalsh/dotfiles.git"
+
+#-----------------------------------------
+# Install Homebrew/packages
+#-----------------------------------------
+
+if ! command -v brew >/dev/null 2>&1; then
+  echo "➡️ Installing homebrew..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+if [ -f "$HOME/.Brewfile" ]; then
+  echo "➡️ Installing brew packages..."
+  brew bundle --global
+fi
+
+#-----------------------------------------
+# Create common directores
+#-----------------------------------------
+
+if [ ! -d "$HOME/dev/work" ]; then
+  echo "➡️ Creating work repos directory..."
+  mkdir -p $HOME/dev/work
+fi
+
+if [ ! -d "$HOME/dev/personal" ]; then
+  echo "➡️ Creating personal repos directory..."
+  mkdir -p $HOME/dev/personal
+fi
+
+#-----------------------------------------
+# Install oh-my-zsh
+#-----------------------------------------
+
+if [ ! -d "$ZSH" ]; then
+  echo "➡️ Installing oh-my-zsh..."
+  /bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+source ~/.zshrc
+
+#-----------------------------------------
+# Start background apps
+#-----------------------------------------
+
+if [ -e "/Applications/1Password 7.app" ]; then
+    open -a 1Password\ 7
+fi
+
+if [ -e "/Applications/Rectangle.app" ]; then
+    open -a Rectangle
+fi
+
+#-----------------------------------------
+# * Set yadm origin url to ssh
+#-----------------------------------------
+
+echo "➡️ Updating the yadm origin to ssh repo url..."
+yadm remote set-url origin "$SSH_REPO_URL"
+
+echo "🎉 Done (you may need to run \`source ~/.zshrc\` to get changes) 🎉"
