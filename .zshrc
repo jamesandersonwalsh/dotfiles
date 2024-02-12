@@ -90,3 +90,8 @@ load-nvmrc
 #-----------------------------------------
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#-----------------------------------------
+# 1Password SSH Configuration
+#-----------------------------------------
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
