@@ -2,8 +2,6 @@
 # Taps
 #-----------------------------------------
 tap 'homebrew/bundle'
-tap 'homebrew/cask'
-tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'oven-sh/bun'
 
@@ -17,19 +15,19 @@ brew 'git-extras'
 brew 'vim'
 brew 'wget'
 brew 'yadm'
-brew '1password-cli'
 
 #-----------------------------------------
-# App Casks
+# Casks
 #-----------------------------------------
 cask '1password'
+cask '1password-cli'
 cask 'raycast'
 cask 'rectangle'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'iterm2'
-cask 'cron'
 cask 'notion'
+cask 'notion-calendar'
 cask 'zoom'
 cask 'arc'
 
@@ -43,4 +41,3 @@ cask 'docker'
 #-----------------------------------------
 brew 'pnpm'
 brew 'yarn'
-brew 'bun'
