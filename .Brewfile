@@ -15,6 +15,8 @@ brew 'git-extras'
 brew 'vim'
 brew 'wget'
 brew 'yadm'
+brew 'neovim'
+brew 'font-hack-nerd-font'
 
 #-----------------------------------------
 # Casks
