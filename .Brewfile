@@ -4,6 +4,7 @@
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 tap 'oven-sh/bun'
+tap 'font-hack-nerd-font'
 
 #-----------------------------------------
 # Dev Tools
@@ -16,7 +17,7 @@ brew 'vim'
 brew 'wget'
 brew 'yadm'
 brew 'neovim'
-brew 'font-hack-nerd-font'
+brew 'tmux'
 
 #-----------------------------------------
 # Casks
@@ -32,6 +33,7 @@ cask 'notion'
 cask 'notion-calendar'
 cask 'zoom'
 cask 'arc'
+cask 'font-hack-nerd-font'
 
 #-----------------------------------------
 # Docker
