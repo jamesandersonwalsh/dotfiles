@@ -9,15 +9,16 @@ tap 'font-hack-nerd-font'
 #-----------------------------------------
 # Dev Tools
 #-----------------------------------------
+brew 'yadm'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'vim'
-brew 'wget'
-brew 'yadm'
 brew 'neovim'
+brew 'wget'
 brew 'tmux'
+brew 'pure'
 
 #-----------------------------------------
 # Casks
