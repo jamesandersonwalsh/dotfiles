@@ -18,7 +18,7 @@ brew 'vim'
 brew 'neovim'
 brew 'wget'
 brew 'tmux'
-brew 'pure'
+brew 'starship'
 
 #-----------------------------------------
 # Casks
