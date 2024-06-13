@@ -2,7 +2,6 @@
 # oh-my-zsh
 #-----------------------------------------
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="amuse"
 
 plugins=(
   git
@@ -11,18 +10,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-#-----------------------------------------
-# Terminal Tab Title
-#-----------------------------------------
-DISABLE_AUTO_TITLE="true"
-function title {
-  echo -e "\033];$@\007"
-}
-title ${PWD/#$HOME/'~'}
-function chpwd() {
-  title ${PWD/#$HOME/'~'}
-}
 
 #-----------------------------------------
 # Aliases - Docker
