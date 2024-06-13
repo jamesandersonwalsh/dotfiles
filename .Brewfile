@@ -34,6 +34,7 @@ cask 'notion'
 cask 'notion-calendar'
 cask 'zoom'
 cask 'arc'
+cask 'karabiner-elements'
 cask 'font-hack-nerd-font'
 
 #-----------------------------------------
