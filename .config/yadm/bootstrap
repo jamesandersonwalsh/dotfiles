@@ -50,6 +50,11 @@ if [ ! -d "$HOME/.nvm" ]; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh)"
 fi
 
+#-----------------------------------------
+# Install TMUX Package Manager
+#-----------------------------------------
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 #-----------------------------------------
 # Start background apps
