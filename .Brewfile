@@ -19,6 +19,7 @@ brew 'neovim'
 brew 'wget'
 brew 'tmux'
 brew 'starship'
+$ brew 'ripgrep'
 
 #-----------------------------------------
 # Casks
