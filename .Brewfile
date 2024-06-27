@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/services'
 tap 'oven-sh/bun'
 tap 'font-hack-nerd-font'
+tap 'jesseduffield/lazygit/lazygit'
 
 #-----------------------------------------
 # Dev Tools
@@ -19,7 +20,8 @@ brew 'neovim'
 brew 'wget'
 brew 'tmux'
 brew 'starship'
-$ brew 'ripgrep'
+brew 'ripgrep'
+brew 'lazygit'
 
 #-----------------------------------------
 # Casks
