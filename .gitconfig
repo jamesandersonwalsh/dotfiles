@@ -13,6 +13,7 @@
 	branch = false
 [alias]
 	lg = log --pretty=format:'%C(yellow)%h %<(24)%C(red)%ad %<(18)%C(green)%an %C(reset)%s' --date=local
+	gg = lazygit
 	yolo = commit --no-verify
 	wip = commit -am "WIP"
 	st = status
