@@ -19,9 +19,11 @@ brew 'vim'
 brew 'neovim'
 brew 'wget'
 brew 'tmux'
-brew 'starship'
 brew 'ripgrep'
 brew 'lazygit'
+
+brew 'coreutils'
+brew 'asdf'
 
 #-----------------------------------------
 # Casks
