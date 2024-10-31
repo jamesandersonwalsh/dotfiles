@@ -74,12 +74,10 @@ case ":$PATH:" in
 esac
 
 #-----------------------------------------
-# 1Password SSH
+# Powerlevel 10k 
 #-----------------------------------------
-export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 
-#-----------------------------------------
-# Starship (https://starship.rs)
-#-----------------------------------------
-eval "$(starship init zsh)"
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
