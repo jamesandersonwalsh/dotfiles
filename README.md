@@ -6,10 +6,11 @@ For synchronizing development environments through Homebrew & YADM.
 
 ## Pre-requisites
 
-- [Install HomeBrew](https://docs.brew.sh/Installation) then run the following:
+1. [Install HomeBrew](https://docs.brew.sh/Installation) then run the following:
 ```bash
 brew install yadm
 ```
+1. Install Password Manager responsible for managing Git SSH keys. You will need to be able to read from the repo for `yadm clone` to succeed.
 
 ## Bootstrap Device
 
