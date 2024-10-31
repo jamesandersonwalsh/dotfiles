@@ -17,6 +17,7 @@
 	yolo = commit --no-verify
 	wip = commit -am "WIP"
 	st = status
+	sm = "!sm() { git switch main && git pull origin main; };sm"
 	s = switch
 	sc = switch -c
 [url "git@github.com:"]
