@@ -28,8 +28,6 @@ brew 'asdf'
 #-----------------------------------------
 # Casks
 #-----------------------------------------
-cask '1password'
-cask '1password-cli'
 cask 'raycast'
 cask 'rectangle'
 cask 'slack'
