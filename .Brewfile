@@ -16,7 +16,7 @@ brew 'zsh-autosuggestions'
 brew 'diff-so-fancy'
 brew 'git-extras'
 brew 'vim'
-brew 'neovim'
+# brew 'neovim' # TODO: on the fence about whether or not I should keep this. Likely Zed would replace VSCode.
 brew 'wget'
 brew 'tmux'
 brew 'ripgrep'
