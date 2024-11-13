@@ -10,7 +10,7 @@ For synchronizing development environments through Homebrew & YADM.
 ```bash
 brew install yadm
 ```
-1. Install Password Manager responsible for managing Git SSH keys. You will need to be able to read from the repo for `yadm clone` to succeed.
+2. Install Password Manager responsible for managing Git SSH keys _(or authenticate with Github through HTTPS)_. You will need to be able to read from the repo for `yadm clone` to succeed.
 
 ## Bootstrap Device
 
