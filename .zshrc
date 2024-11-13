@@ -74,6 +74,14 @@ case ":$PATH:" in
 esac
 
 #-----------------------------------------
+# 1Password SSH
+#-----------------------------------------
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
+eval "$(direnv hook zsh)"
+eval
+
+#-----------------------------------------
 # Powerlevel 10k 
 #-----------------------------------------
 
