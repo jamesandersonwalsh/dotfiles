@@ -25,6 +25,19 @@ alias dcps="dmenv && docker-compose ps"
 alias src=". ~/.zshrc"
 alias ll="ls -lah"
 alias dev="cd ~/dev"
+alias work="cd ~/dev/work"
+alias personal="cd ~/dev/personal"
+
+#-----------------------------------------
+# Aliases - Project Specific Directories
+#-----------------------------------------
+
+# ? TODO: fill me in with specific active projects.
+
+#-----------------------------------------
+# Aliases - LazyGit
+#-----------------------------------------
+alias lg="lazygit"
 
 #-----------------------------------------
 # NVM
